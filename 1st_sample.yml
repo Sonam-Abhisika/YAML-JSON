@@ -1,0 +1,58 @@
+---
+# This is my 1st YAML
+# I am very much excited to learn more on YAML
+# I am working with YAML with VS Code
+
+NOTES with Examples:
+
+# YAML stands for "YAML Ain't Markup Language"
+    # It is a superset of JSON
+    # lists begin with a hyphen
+    # dependent on whitespace / indentation
+    # better suited for configuration than json
+
+# It is just like XML and JSON but better than both of them
+# It is very light weight and easy to use, uses less syntax
+# Features: Supports Cross platforms, better than JSON
+# YAML is like any other
+
+# YAML only supports "Key-value pair" combination only for single entity/object.
+# User can provide the "space in Name of Key".
+# User can use the "Single or Double Quotes" in Key Name.
+# "Key can't be repeated" within the same space in YAML.
+
+FirstName: Sonam
+Last Name: Abhisika
+Learning: "YAML:"
+age: '28'
+Last name: DD
+
+
+# Indentation of WhiteSpace used to denote structure. This is similar to python. 
+# basic structure of YAML is Map (just like in Java) or may call it Dictionary (just like and python), hash depending on your favourite programming language. 
+# YAML is "case sensitive". (name=levelup360 != Name=levelup360)
+
+  #Student's data
+
+Students:
+  - Name: James
+    Age: 16
+    Grade: X
+    Subjects: 
+      Maths
+      English
+      French
+
+  - Name: Peter
+    Age: 18
+    Grade: XII
+    Subjects: 
+      Maths
+      English
+      Finance   
+
+#>> Yaml viewer (for validating Yaml)
+#>> Yaml to JSON converter (to convert yaml into JSON)
+  - type Jsom2yaml in web search (google)
+
+
