@@ -1,0 +1,31 @@
+---
+name: John McLean  # String
+language: English  
+BirthYear: 1785    # Integer
+BirthDate: "11"    # converted Integer into String by ""
+DOB: 11-03-1785    # String
+Lifetime: 74.8     # Float (not Integer)
+Died_Hex: 0x745    # to declare the value as HexaDecimal use "0xNumber"
+Died_Octal: 03505  # to declare the value as Octal use "0Number"
+good_man: true     # Boolean
+American: Yes      # May be String or Boolean, hence better to define "" for String
+null_vale: null    # Null value
+
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rss-site
+  labels:
+    app: web
+spec:
+  containers:
+    - name: front-end
+      image: nginx
+      ports:
+        - containerPort: 80
+    - name: rss-reader
+      image: nickchase/rss-php-nginx:v1
+      ports:
+        - containerPort: 88
