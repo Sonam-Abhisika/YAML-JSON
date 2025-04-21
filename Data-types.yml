@@ -1,0 +1,10 @@
+# DataTypes in YAML:
+
+Key can only be: String
+Value:
+  can be: String    (Scalar)
+          Number    (Scalar)
+          Null      (Scalar)
+          Boolean   (Scalar)
+          Map       (Collection)
+          List      (Collection)
